@@ -1,8 +1,16 @@
-# Node.js dependencies
+# Node.js
 node_modules/
+**/node_modules/
 
-# Build directory
-build/
+
+# Build outputs
 dist/
+build/
+**/dist/
+**/build/
 
+# Monorepo tools
+.turbo/
+
+# lockfiles
 package-lock.json
