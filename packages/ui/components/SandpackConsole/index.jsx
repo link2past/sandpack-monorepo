@@ -7,7 +7,7 @@ import {
   StyledConsole,
   ConsoleContent,
   ConsoleContainer,
-} from "../styles/ConsoleStyles";
+} from "./styledComponents";
 
 const SandpackConsole = React.memo(({ hideConsole }) => {
   const [consoleExpanded, setConsoleExpanded] = React.useState(false);

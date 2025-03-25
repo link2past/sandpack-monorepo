@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 
-const ReactCodeBlock = React.lazy(() =>
+const ReactCodeBlock = lazy(() =>
   import("ui").then((mod) => ({ default: mod.ReactCodeBlock }))
 );
 

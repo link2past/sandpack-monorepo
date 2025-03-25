@@ -8,10 +8,10 @@ import {
   StyledCodeEditor,
   StyledPreviewContainer,
   StyledPreview,
-} from "../styles/SandpackLayout";
+} from "./styledComponents";
 
-import SandpackConsole from "./SandpackConsole";
-import { extractFilesFromChildren } from "../utils/parseFiles";
+import SandpackConsole from "../SandpackConsole";
+import { extractFilesFromChildren } from "../../utils/parseFiles";
 
 const SandpackRenderer = ({ children, ...attributes }) => {
   const files = React.useMemo(
